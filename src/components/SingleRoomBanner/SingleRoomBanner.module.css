@@ -1,0 +1,96 @@
+ .SingleRoomBackground {
+    background: url(../../images/room-12.jpeg)center center / cover no-repeat;
+    min-height: calc(100vh - 66px);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 50%;
+        background-position-y: center;
+        background-color: initial;
+        background-clip: initial;
+        background-attachment: initial;
+        background-origin: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+} 
+
+.SingleRoomBanner {
+    display: inline-block;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+
+
+
+.SingleRoomBanner h1 {
+    font-size: 2.5rem;
+    font-size: 3em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+.SingleRoomBanner div {
+    width: 10rem;
+    height: 5px;
+    background: #af9a7d;
+    margin: 1.7rem auto;
+}
+
+.SingleRoomBanner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btnPrimary {
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3px;
+    color: #222;
+    background: #af9a7d;
+    padding: 0.4rem 0.9rem;
+    border: 3px solid #af9a7d;
+    transition: all .3s linear;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btnPrimary:hover {
+    background: transparent;
+    color: #af9a7d;
+}
+
+ 
+@media screen and (max-width: 600px) {
+    .SingleRoomBanner {
+        padding: 1rem 1rem;
+    }
+    
+    
+    
+    .SingleRoomBanner h1 {
+        font-size: 1.5rem;
+        line-height: 1;
+    
+    }
+
+    .btnPrimary {
+        letter-spacing: 2px;
+        padding: 0.4rem 0.5rem;
+    }
+
+    .SingleRoomBackground {
+       
+        min-height: calc(80vh - 100px);
+        min-width: 100%;
+       
+        margin: 10px;
+    } 
+    
+    
+}
+
+
